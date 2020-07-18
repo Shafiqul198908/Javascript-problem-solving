@@ -1,4 +1,4 @@
-Problem:1/*
+Problem:1
 function feetToMile(feet){
     var mile = feet/5280;
     return mile;
@@ -9,13 +9,17 @@ console.log(inputMile)
 
 
 
+
+
 Problem:2
 function woodCalculator(chair, table, bed){ 
     var totalWood = (chair*1) + (table*3) + (bed*5);
     return totalWood;
 }
 var inputWood = woodCalculator(3, 5, 1);
-console.log(inputWood)*/
+console.log(inputWood)
+
+
 
 
 
@@ -34,8 +38,7 @@ function brickCalculator(floorNumber){
    else if(floorNumber > 20){
        var brickNumber3 = ((floorNumber-20)*10000) + 270000;
        return brickNumber3;
-   }
-       
+   }      
 }
 var inputFloor = brickCalculator(15);
 console.log(inputFloor)
@@ -46,7 +49,6 @@ console.log(inputFloor)
 
 
 
-/*
 
 Problem:4
 function tinyFriend(strings){
@@ -63,5 +65,5 @@ function tinyFriend(strings){
      }
      return tiny;
  }
- var result = tinyFriend(['vhfvvjg','biplob','etiya','c','payel','shanto','shupti','mia']);
+ var result = tinyFriend(['biplob','etiya','c','payel','shanto','shupti','mia']);
  console.log(result)
